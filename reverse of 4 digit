@@ -1,0 +1,6 @@
+'''write a program to print reverse of n natural numbers n=5'''
+n= int(input("enter the value of n:"))
+i= 5
+while i>=1:
+    print(i,end=' ')
+    i-=1
