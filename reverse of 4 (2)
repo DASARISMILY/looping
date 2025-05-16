@@ -1,0 +1,5 @@
+n=int(input("neter the number:"))
+while n!=0:
+    t=n%10
+    print(t,end='')
+    n//=10
