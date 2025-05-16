@@ -1,0 +1,4 @@
+# lists in for loop
+items=['maggie','5-star','bourbon','lays']
+for sale in items:
+    print(sale)
