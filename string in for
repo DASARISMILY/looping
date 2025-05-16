@@ -1,0 +1,4 @@
+#for loop using strings
+name='mississippi'
+for i in name:
+    print(i,end='')
