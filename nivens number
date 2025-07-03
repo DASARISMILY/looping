@@ -1,0 +1,11 @@
+num=int(input("enter the nmber"))
+temp=num
+sum=0
+while temp!=0:
+    d=temp%10
+    sum=sum+d
+    temp=temp//10
+if num%sum==0:
+    print("nivens number")
+else:
+    print("not nivens number")
